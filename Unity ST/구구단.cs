@@ -1,21 +1,20 @@
 ﻿namespace Unity_ST
 {
-    internal class Program
+    internal class 구구단
     {
         static void Main(string[] args)
         {
 
-            for (int c = 2; c < 10; c++)
+            for (int a = 2; a < 10; a++)
             {
-                Console.WriteLine(c + "단");
-                {
-                    for (int a = 1; a < 10; a++)
-
+                Console.WriteLine(a + "단");
+                
+                    for (int b = 1; b < 10; b++)   
                     {
-                        Console.WriteLine($"{c} * {a} = {c * a}");
+                        Console.WriteLine($"{a} * {b} = {a * b}");
                     }
                 }
-            }
+            
             
             
 
