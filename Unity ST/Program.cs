@@ -4,14 +4,21 @@
     {
         static void Main(string[] args)
         {
-            int num = 1;
+
+            for (int c = 2; c < 10; c++)
+            {
+                Console.WriteLine(c + "단");
+                {
+                    for (int a = 1; a < 10; a++)
+
+                    {
+                        Console.WriteLine($"{c} * {a} = {c * a}");
+                    }
+                }
+            }
+            
             
 
-            while (num < 11)
-            {
-                Console.WriteLine($"{num}");
-                num++;
-            }
         }
     }
 }
